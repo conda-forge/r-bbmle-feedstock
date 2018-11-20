@@ -14,9 +14,8 @@ Summary: Methods and functions for fitting maximum likelihood models in R. This 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bbmle-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bbmle-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-bbmle-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bbmle-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bbmle-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bbmle-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-bbmle-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-bbmle-feedstock)
 
 Current release info
 ====================
