@@ -28,11 +28,17 @@ requirements:
     - r-mass
     - r-lattice
     - r-numderiv
+    - r-bdsmatrix
+    - r-matrix
+    - r-mvtnorm
   run:
     - r-base
     - r-mass
     - r-lattice
     - r-numderiv
+    - r-bdsmatrix
+    - r-matrix
+    - r-mvtnorm
 
 test:
   commands:
