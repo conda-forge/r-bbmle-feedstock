@@ -1,4 +1,4 @@
-{% set version = "1.0.22" %}
+{% set version = "1.0.23.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbmle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbmle/bbmle_{{ version }}.tar.gz
-  sha256: 84f27690ceadee62cac28ed3ae0fe0365a1b7d479cfbe641263c0e577829b6c5
+  sha256: 60421eb01190b741ab14885eaf1088f51d49dcf70e58c42b360489bca04e745c
 
 build:
   merge_build_host: True  # [win]
