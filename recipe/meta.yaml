@@ -1,4 +1,4 @@
-{% set version = "1.0.23.1" %}
+{% set version = "1.0.24" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbmle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbmle/bbmle_{{ version }}.tar.gz
-  sha256: 60421eb01190b741ab14885eaf1088f51d49dcf70e58c42b360489bca04e745c
+  sha256: 01edc00479fabf7491e47ff59bc4adbe6f0d4c23d22e76d1d49c4c1b6b4693ad
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -48,8 +48,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=bbmle
   license: GPL-2.0-or-later
-  summary: Methods and functions for fitting maximum likelihood models in R. This package modifies
-    and extends the 'mle' classes in the 'stats4' package.
+  summary: Methods and functions for fitting maximum likelihood models in R. This package modifies and extends the 'mle' classes in the 'stats4' package.
   license_family: GPL
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
