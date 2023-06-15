@@ -1,11 +1,11 @@
-About r-bbmle
-=============
+About r-bbmle-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bbmle-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=bbmle
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bbmle-feedstock/blob/main/LICENSE.txt)
 
 Summary: Methods and functions for fitting maximum likelihood models in R. This package modifies and extends the 'mle' classes in the 'stats4' package.
 
