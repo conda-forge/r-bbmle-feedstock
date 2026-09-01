@@ -1,4 +1,4 @@
-{% set version = "1.0.25.1" %}
+{% set version = "1.0.26" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bbmle_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bbmle/bbmle_{{ version }}.tar.gz
-  sha256: d92a0cf819fe4c08b8eb17f5e03275c8accde7f3b54f990cbba5ab926575b60b
+  sha256: 886589af4a6f161992a3605f2312589a00598435a7c78de7a128e0134bc44e2c
 
 build:
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
